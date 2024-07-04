@@ -1,0 +1,39 @@
+{
+  "name": "integrate-core-staked-btc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "patch-package",
+    "start": "npx node webpack/utils/devServer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.0.268",
+    "@types/node": "^20.14.9",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^12.0.2",
+    "dotenv-webpack": "^8.1.0",
+    "fork-ts-checker-webpack-plugin": "^9.0.2",
+    "html-webpack-plugin": "^5.6.0",
+    "react-refresh-typescript": "^2.0.9",
+    "terser-webpack-plugin": "^5.3.10",
+    "ts-transformer-keys": "^0.4.4",
+    "tsconfig-paths-webpack-plugin": "^4.1.0",
+    "typescript": "^5.4.5",
+    "typescript-plugin-styled-components": "^3.0.0",
+    "webpack": "^5.92.1",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bitcoinjs-lib": "^6.1.6",
+    "buffer": "^6.0.3",
+    "coinselect-segwit": "^1.0.2",
+    "ecpair": "^2.1.0",
+    "patch-package": "^8.0.0",
+    "tiny-secp256k1": "^2.2.3"
+  }
+}
