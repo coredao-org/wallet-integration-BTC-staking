@@ -192,8 +192,11 @@ Note that Core staking website will provide a shortcut button for each CLTV addr
 After the wallet successfully imported and parsed CLTV addresses, it is recommended to improve UI for at least following areas
 
 * Display all imported addresses and corresponding amount, remaining locktime, etc.
-* Reflect the locked BTC assets in balance displays. 
-
+* Reflect the locked BTC assets in balance displays.
+  
+<img height="420" alt="xverse-pr-4" src="https://github.com/coredao-org/integrate-core-BTC-staking/assets/108331419/2d913f40-3da6-4f7e-b0d6-e66035fb7a2f">
+<img height="420" alt="xverse-pr-2" src="https://github.com/coredao-org/integrate-core-BTC-staking/assets/108331419/1b461427-d882-4755-814c-c4d4e0ccd5e2">
+<img height="420" alt="xverse-pr-3" src="https://github.com/coredao-org/integrate-core-BTC-staking/assets/108331419/88e61789-738d-40db-9360-68a7c70f402e">
 
 
 ## Spend Expired CLTV
