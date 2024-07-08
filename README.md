@@ -16,7 +16,7 @@ Below is the redeem script design
 
 By using this script, the staking transaction output becomes a timelocked-P2PKH or timelocked-P2WPKH address. 
 
-A new P2SH/P2WSH address will be generated as long as a new <Absolute Timestamp> is picked as the locktime using a given private key. By default, wallets do not recognize these addresses which causes the issue discussed above.  
+A new P2SH/P2WSH address will be generated as long as a new ``<Absolute Timestamp>`` is picked as the locktime using a given private key. By default, wallets do not recognize these addresses which causes the issue discussed above.  
 
 
 ## Import Script
